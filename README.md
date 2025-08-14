@@ -1,5 +1,17 @@
-# Vue 3 + TypeScript + Vite
+项目技术 Vue + ts + tailwindcss + daisyui + pinia + vue-router 
+项目结构设计
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+src/
+├── assets/              # 静态资源
+│   ├── images/          # 图片资源
+│   └── styles/          # 全局样式
+├── components/          # 公共组件
+│   ├── ui/              # 基础UI组件
+│   ├── layout/          # 布局组件
+│   └── features/        # 功能组件
+├── views/               # 页面视图
+├── stores/              # Pinia状态管理
+├── router/              # 路由配置
+├── types/               # TypeScript类型定义
+├── utils/               # 工具函数
+└── App.vue              # 根组件
